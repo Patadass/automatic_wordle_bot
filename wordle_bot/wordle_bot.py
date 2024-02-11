@@ -4,8 +4,6 @@ from scraper import type_word
 from scraper import color_scraper
 
 
-# x=585 y=774
-
 def get_dictionary_of_allowed_words():
     dictionary = []
     with open('wordle-La.txt', 'r') as f:
